@@ -9,9 +9,9 @@
 
 :root{
     /* Puedes personalizar con tus colores favoritos */
-    --color-primario: #8C3E11;
-    --color-secundario: #172601;
-    --color-terciario: #FFFFFF;
+    --color-primario: #c300ff;
+    --color-secundario: #000000;
+    --color-terciario: #00b9f1;
 }
 
 
@@ -80,7 +80,13 @@ header, footer{
 }
 
 
-.card .button {
+.botonera{
+    display: flex;
+    justify-content: center;
+    padding: 16px;
+}
+
+button {
     text-align: center;
     display: inline-block;
     padding: 10px 20px;
@@ -91,6 +97,6 @@ header, footer{
     transition: background-color 500ms ease-in-out;
 }
 
-.card .button:hover {
+button:hover {
     background-color: #45a049;
 }
